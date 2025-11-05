@@ -4,7 +4,7 @@ This is a custom Discord bot built for a client who was running a freelance Disc
 
 ### Note on Configuration
 
-This bot was hard-coded for a specific server and is intended as a portfolio piece. The channel IDs, role IDs, and other configurations are specific to that server's setup and are left in the code for reference.
+This bot was hard-coded for a specific server and is intended as a portfolio piece. The channel IDs, role IDs, and other configurations are specific to that server's setup and are left in the code for reference. Please modify config.py with IDs in your own server prior to running, otherwise it will not work.
 
 ## 🚀 Setup and Running
 
