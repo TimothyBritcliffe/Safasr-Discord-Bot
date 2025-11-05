@@ -1,6 +1,6 @@
 # Safasr Services Discord Bot
 
-This is a custom Discord bot built to manage services for a specific server. Its features include a ticket system, support system, custom service orders, and verification.
+This is a custom Discord bot built for a client who was running a freelance Discord server. Its features include a ticket system, support system, custom service orders, and verification.
 
 ### Note on Configuration
 
