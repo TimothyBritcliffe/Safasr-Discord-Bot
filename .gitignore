@@ -1,9 +1,6 @@
 # Python cache
 __pycache__/
 
-# Sensitive Config
-config.py
-
 # Environment files
 .env
 *.env
