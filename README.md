@@ -12,7 +12,7 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 1.  **Clone the repository:**
     ```sh
-    git clone <your-repo-url>
+    git clone https://github.com/TimothyBritcliffe/Safasr-Discord-Bot
     cd Safasr-Services-Discord-Bot
     ```
 
