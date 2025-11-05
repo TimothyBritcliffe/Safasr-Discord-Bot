@@ -6,10 +6,12 @@ import config
 import os
 from keepAlive import keep_alive
 import traceback
+from dotenv import load_dotenv
+load_dotenv()
 
 class Bot(commands.Bot):
     def __init__(self, intents: discord.Intents, **kwargs):
-        super().__init__(command_prefix='!', intents=intents, **kwargs)
+        super().__init__(command_prefix=config.PREFIX, intents=intents, **kwargs)
 
     async def setup_hook(self):
         for cog in config.cogs:
@@ -37,4 +39,7 @@ bot = Bot(intents=intents)
 bot.remove_command('help')
 
 keep_alive()
-bot.run(os.getenv("TOKEN"))
+TOKEN = os.getenv("TOKEN")
+if TOKEN is None:
+    raise ValueError("TOKEN not found in .env file")
+bot.run(TOKEN)

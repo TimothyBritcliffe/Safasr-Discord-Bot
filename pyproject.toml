@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "python-template"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Discord bot for Safasr Services (no longer in operation)"
+authors = ["Timothy Britcliffe"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"

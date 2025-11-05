@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+
+# Sensitive Config
+config.py
+
+# Environment files
+.env
+*.env
+
+# OS / IDE
+.DS_Store
